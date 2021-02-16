@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="img/favicon.png">
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="main-nav">
+                <a href="image-search.html">Image Search</a>
+                <a href="advanced-search.html">Advanced Search</a>
+            </nav>
+            <main class="main-content">
+                <img src="img/google-logo-main-size.png">
+                <div class="user-input">
+                    <form action="https://google.com/search">
+                        <div class="search-bar">
+                            <img src="img/search-icon.png" width="20px" height="20px">
+                            <input type="text" name="q">
+                        </div>
+                        <div class="search-buttons">
+                            <!-- The "name" attribute is what will define the type of search. The Value is what the name will be equal to -->
+                            <!-- In the URL: /search?q=[pesquisa]&btnK=Google+Search -->
+                            <input class="btn" type="submit" name="btnK" value="Google Search">
+                            <input class="btn" type="submit" name="btnI" value="I'm Feeling Lucky">
+                        </div>
+                    </form>
+                </div>
+            </main>
+            <footer class="main-footer">
+
+            </footer>
+        </div>  
+    </body>
+</html>

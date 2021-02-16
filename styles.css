@@ -1,0 +1,105 @@
+html {
+    color: #3C4043;
+    font-family: arial,sans-serif;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+/* Navigation */
+.main-nav {
+    text-align: end;
+    padding-right: 10px;
+}
+
+.main-nav a {
+    margin: 0 10px;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 3.2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+/* User Input Stuff */
+.user-input > form{
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Textbox */
+.search-bar {
+    display: flex;
+    border: 1px solid #DFE1E5;
+    height: 40px;
+    width: 550px;
+    border-radius: 50px;
+    justify-content: center;
+
+    padding: 2px 20px 2px 15px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 5px rgba(104,104,104,0.3);
+}
+
+/* Icon */
+.search-bar img {
+    align-self: center;
+    padding-right: 15px;
+}
+
+/* Text Field */
+input[type="text"] {
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+
+/* Buttons */
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    /* border: 1px solid blue; */
+}
+
+.btn {
+    background-color: #F8F9FA;
+    min-width: 54px;
+    height: 36px;
+    border: none;
+    padding: 0 16px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+    font-size: 0.9rem;
+    color: #3C4043;
+}
+
+.btn:hover {
+    border: 1px solid #DFE1E5;
+    box-shadow: 0 0 5px rgba(104,104,104,0.3);
+}
+
+.btn:focus {
+    outline: 1px solid #4D90FE;
+}
+
