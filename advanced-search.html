@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="img/favicon.png">
+        <title>Google</title>
+        
+        <link rel="stylesheet" href="styles-advanced-search.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="main-nav">
+                <img class="logo" src="img/google-logo-main-size.png">
+                <div class="nav-links">
+                    <a href="index.html">Google Search</a>
+                    <a href="image-search.html">Image Search</a>
+                </div>
+            </nav>
+            <br>
+            <main class="main-content">
+                
+                <p id="main-name">Advanced Search</p>
+                <hr>
+                <div class="user-input">
+                    <form action="https://google.com/search">
+                        <p id="search-subtitle">Find pages with...</p>
+                        <div class="search-bars">
+                            
+                            <p>all these words:</p>
+                            <input type="text" name="q">
+                            <p>this exact word or phrase:</p>
+                            <input type="text" name="as_epq">
+                            <p>any of these words:</p>
+                            <input type="text" name="as_oq">
+                            <p>none of these words:</p>
+                            <input type="text" name="as_eq">
+                            
+                        </div>
+                        <div class="search-buttons">
+                            <!-- The "name" attribute is what will define the type of search. The Value is what the name will be equal to -->
+                            <!-- In the URL: /search?q=[pesquisa]&btnK=Google+Search -->
+                            <input class="btn" type="submit" name="btnK" value="Google Search">
+                        </div>
+                    </form>
+                    <hr>
+                </div>
+            </main>
+            <footer class="main-footer">
+
+            </footer>
+        </div>  
+    </body>
+</html>
